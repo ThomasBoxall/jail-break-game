@@ -1,0 +1,43 @@
+:root{
+    --bgCol: #333333;
+    --themeAccentColor: #ff028d;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+div{
+    height: 100%;
+    padding-top: 1em;
+}
+
+h1{
+    text-align:center;
+}
+
+.buttonLink{
+    width: 100%;
+    display:block;
+    margin: 0px auto 1em auto;
+    background-color: var(--themeAccentColor);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 1em 0;
+    border-radius: 15px;
+}
+
+
+@media screen and (min-width: 430px) {
+    body{
+        width: 60%;
+        margin: 0px auto;
+    }
+
+}
