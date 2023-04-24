@@ -7,7 +7,7 @@
     font-family: sans-serif;
 }
 
-html, body{
+/* html, body{
     height: 100%;
     overflow: hidden;
 }
@@ -15,7 +15,7 @@ html, body{
 .game-stage{
     height: 100%;
     padding-top: 1em;
-}
+} */
 
 .footer{
     font-size: 70%;
