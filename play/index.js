@@ -1,53 +1,3 @@
-// let stagesData = {
-//     "stages" : [
-//         {
-//             stageID: "start",
-//             stageTitle: "Start",
-//             stageBody: "blah",
-//             nextStage: [
-//                 {
-//                     btnText: "button 1",
-//                     link: "stage2"
-//                 },
-//                 {
-//                     btnText: "button 2",
-//                     link: "stage3"
-//                 },
-//             ]
-//         },
-//         {
-//             stageID: "stage2",
-//             stageTitle: "2",
-//             stageBody: "blah blah",
-//             nextStage: [
-//                 {
-//                     btnText: "button 1",
-//                     link: "stage2"
-//                 },
-//                 {
-//                     btnText: "button 2",
-//                     link: "stage3"
-//                 },
-//             ]
-//         },
-//         {
-//             stageID: "stage3",
-//             stageTitle: "3",
-//             stageBody: "blah blah blah",
-//             nextStage: [
-//                 {
-//                     btnText: "button 1",
-//                     link: "stage2"
-//                 },
-//                 {
-//                     btnText: "button 2",
-//                     link: "stage3"
-//                 },
-//             ]
-//         }
-//     ]
-// };
-
 import stagesData from './stages.json' assert { type: 'json' };
 // const stagesData = response.json();
 console.log(stagesData);
@@ -69,12 +19,12 @@ if (urlParams.has('stageID')){
 }
 let stagesDataIndex = findIndex(id);
 
-console.log(id);
-console.log(stagesDataIndex.toString());
+// console.log(id);
+// console.log(stagesDataIndex.toString());
 
 // first clear the div
 let gameContainer = document.getElementById('gameScreen');
-console.log(gameContainer.hasChildNodes());
+// console.log(gameContainer.hasChildNodes());
 
 while(gameContainer.hasChildNodes()){
     gameContainer.removeChild(gameContainer.firstChild);

@@ -2,46 +2,225 @@
     "stages" : [
         {
             "stageID": "start",
-            "stageTitle": "Start",
-            "stageBody": "blah",
+            "stageTitle": "Cell",
+            "stageBody": "You enter your cell and see a single bed with an iron frame, a small desk, and a toilet and sink at the other end of the cell. The small window above the bed has bars on them.",
             "nextStage": [
                 {
-                    "btnText": "button 1",
-                    "link": "stage2"
+                    "btnText": "Look out the window",
+                    "link": "dprn"
                 },
                 {
-                    "btnText": "button 2",
-                    "link": "stage3"
+                    "btnText": "Look at the bed",
+                    "link": "iceg"
+                },
+                {
+                    "btnText": "Start writing your escape plan",
+                    "link": "ayks"
+                },
+                {
+                    "btnText": "Go try to explore",
+                    "link": "dwyn"
                 }
             ]
         },
         {
-            "stageID": "stage2",
-            "stageTitle": "2",
-            "stageBody": "blah blah",
+            "stageID": "dprn",
+            "stageTitle": "Look out the Window",
+            "stageBody": "You see that there is a small dock with a small boat that isn't guarded. You know how you'll be able to get off the island since you've spent all your summers sailing ",
             "nextStage": [
                 {
-                    "btnText": "button 1",
-                    "link": "stage2"
-                },
-                {
-                    "btnText": "button 2",
-                    "link": "stage3"
+                    "btnText": "Go back",
+                    "link": "start"
                 }
             ]
         },
         {
-            "stageID": "stage3",
-            "stageTitle": "3",
-            "stageBody": "blah blah blah",
+            "stageID": "iceg",
+            "stageTitle": "Look at the Bed",
+            "stageBody": "Looks really uncomfortable, you need to escape this place and return to your nice soft bed!",
             "nextStage": [
                 {
-                    "btnText": "button 1",
-                    "link": "stage2"
+                    "btnText": "Go back",
+                    "link": "start"
+                }
+            ]
+        },
+        {
+            "stageID": "ayks",
+            "stageTitle": "Start writing your escape plan",
+            "stageBody": "The guard enters the room and finds you writing your escape plan. It is confiscated and you're sent to solitary confinement…congrats you've set a new record for the fastest time for a new inmate to be sent to the hole and you fail your escape mission, start over!!",
+            "nextStage": [
+                {
+                    "btnText": "Start again",
+                    "link": "start"
+                }
+            ]
+        },
+        {
+            "stageID": "dwyn",
+            "stageTitle": "Go try to explore",
+            "stageBody": "Well done, this is the correct option. Once you've moved onto the next stage you can't return.",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "start"
                 },
                 {
-                    "btnText": "button 2",
-                    "link": "stage3"
+                    "btnText": "Continue",
+                    "link": "vtpr"
+                }
+            ]
+        },
+        {
+            "stageID": "vtpr",
+            "stageTitle": "Outside your cell",
+            "stageBody": "You hear a commotion outside your cell and go to see what's going on, two inmates are fighting. You notice one of the inmates dropped something and it is very close to you. In the chaos, all the attention is on the fighting inmates",
+            "nextStage": [
+                {
+                    "btnText": "Grab the item",
+                    "link": "ivvr"
+                },
+                {
+                    "btnText": "Just watch the fight",
+                    "link": "kjbk"
+                },
+                {
+                    "btnText": "Call the guards over",
+                    "link": "ixxm"
+                },
+                {
+                    "btnText": "Walk away, you've got exploring to do!",
+                    "link": "wntc"
+                }
+            ]
+        },
+        {
+            "stageID": "ivvr",
+            "stageTitle": "Grab the Item",
+            "stageBody": "You see the item is a small pickaxe, this reminds you of that old movie you can't remember the name of! You put it in your pocket",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "vtpr"
+                }
+            ]
+        },
+        {
+            "stageID": "kjbk",
+            "stageTitle": "Just Watch the fight",
+            "stageBody": "The inmates are eventually pulled apart by the prison guards and are sent to solitary confinement. One guard yells at you to go back to your cell…maybe be careful calling attention to yourself in future",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "vtpr"
+                }
+            ]
+        },
+        {
+            "stageID": "ixxm",
+            "stageTitle": "Call the guards over",
+            "stageBody": "Have you never seen a prison movie?! Start again.",
+            "nextStage": [
+                {
+                    "btnText": "Start again",
+                    "link": "start"
+                }
+            ]
+        },
+        {
+            "stageID": "wntc",
+            "stageTitle": "Walk away, you've got exploring to do!",
+            "stageBody": "Well done, this is the correct option. Once you've moved onto the next stage you can't return.",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "vtpr"
+                },
+                {
+                    "btnText": "Continue",
+                    "link": "yiah"
+                }
+            ]
+        },
+        {
+            "stageID": "yiah",
+            "stageTitle": "In the Dining Hall",
+            "stageBody": "You enter the dining hall and are hit by a revolting smell of whatever monstrosity the kitchen has cooked! You miss the smell of your mother's home cooking. You take a deep breath and go to get a tray of the slop they call food. You look around after getting your food and see three available seats",
+            "nextStage": [
+                {
+                    "btnText": "Take a seat with the group of scary-looking men  who are all arm wrestling",
+                    "link": "zdpu"
+                },
+                {
+                    "btnText": "Take a seat with the old man scowling at his dinner",
+                    "link": "xynm"
+                },
+                {
+                    "btnText": "Take a seat with the smaller man who is guarding his food",
+                    "link": "xkpi"
+                },
+                {
+                    "btnText": "Take your food back to your cell…Your food is horrible and your desk chair doesn't have lumbar support, prison really is horrible",
+                    "link": "kkip"
+                }
+            ]
+        },
+        {
+            "stageID": "zdpu",
+            "stageTitle": "ake a seat with the group of scary-looking men  who are all arm wrestling",
+            "stageBody": "You take a seat and the table goes silent…One of the men informs you that if you want to sit with them you have to beat one of them in arm wrestling (you can see these guys spend their time here working out). You get up and leave them to their arm wrestling!",
+            "nextStage": [
+                {
+                    "btnText": "Go Back",
+                    "link": "yiah"
+                }
+            ]
+        },
+        {
+            "stageID": "xynm",
+            "stageTitle": "Take a seat with the old man scowling at his dinner",
+            "stageBody": "Thinking that the old prison inmate in all the movies holds all the knowledge you sit down and try to start a conversation… unfortunately, the old man is VERY deaf and you spend 10 minutes shouting at him trying to figure out his name…it's Alfred",
+            "nextStage": [
+                {
+                    "btnText": "Go Back",
+                    "link": "yiah"
+                }
+            ]
+        },
+        {
+            "stageID": "xkpi",
+            "stageTitle": "Take a seat with the smaller man who is guarding his food",
+            "stageBody": "The man looks at you suspiciously, bringing his food closer to him. After a while of talking, he seems to relax a bit and even invites you back to his cell sometime to have a peanut butter sandwich. He tells you that he can get you any food you want as he has a hookup in the kitchen",
+            "nextStage": [
+                {
+                    "btnText": "Go Back",
+                    "link": "yiah"
+                }
+            ]
+        },
+        {
+            "stageID": "kkip",
+            "stageTitle": "Take your food back to your cell…Your food is horrible and your desk chair doesn't have lumbar support, prison really is horrible",
+            "stageBody": "Well done, this is the correct option. Once you've moved onto the next stage you can't return.",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "yiah"
+                },
+                {
+                    "btnText": "Continue",
+                    "link": "mghm"
+                }
+            ]
+        },
+        {
+            "stageID": "",
+            "stageTitle": "",
+            "stageBody": "",
+            "nextStage": [
+                {
+                    "btnText": "",
+                    "link": ""
                 }
             ]
         }
