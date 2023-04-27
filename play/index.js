@@ -47,3 +47,16 @@ for (let x = 0; x < stagesData.stages[stagesDataIndex].nextStage.length; x++){
     linkToNext.setAttribute('class', 'buttonLink');
     gameContainer.append(linkToNext);
 }
+
+// add capabilities for other links to be included in the page (eg to send people to about page)
+if (stagesData.stages[stagesDataIndex].hasOwnProperty('otherLinks')){
+    console.log("Yas queen");
+
+    for (let x = 0; x < stagesData.stages[stagesDataIndex].otherLinks.length; x++){
+        let linkToOther = document.createElement('a');
+        linkToOther.innerHTML = stagesData.stages[stagesDataIndex].otherLinks[x].btnText;
+        linkToOther.setAttribute('href', stagesData.stages[stagesDataIndex].otherLinks[x].link);
+        linkToOther.setAttribute('class', 'buttonLink');
+        gameContainer.append(linkToOther);
+    }
+}

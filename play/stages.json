@@ -214,13 +214,390 @@
             ]
         },
         {
-            "stageID": "",
-            "stageTitle": "",
-            "stageBody": "",
+            "stageID": "mghm",
+            "stageTitle": "In the Exercise Yard",
+            "stageBody": "After lunch, you go to the exercise yard. You always hated PE in school so this really isn't the place for you",
             "nextStage": [
                 {
-                    "btnText": "",
-                    "link": ""
+                    "btnText": "Go and mingle with your fellow inmates",
+                    "link": "tluo"
+                },
+                {
+                    "btnText": "Sit in the corner",
+                    "link": "sosz"
+                },
+                {
+                    "btnText": "Start working out",
+                    "link": "ynmo"
+                },
+                {
+                    "btnText": "Go find something else to do",
+                    "link": "okgg"
+                }
+            ]
+        },
+        {
+            "stageID": "tluo",
+            "stageTitle": "Go and mingle with your fellow inmates",
+            "stageBody": "You awkwardly try to talk with a few of the inmates, gaining no useful information and an inferiority complex",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "mghm"
+                }
+            ]
+        },
+        {
+            "stageID": "sosz",
+            "stageTitle": "Sit in the corner",
+            "stageBody": "You overhear the guards complaining about the lack of staff and training, and one of the guards were laughing about going through the wrong doors constantly and if the door isn't labelled they'd have no clue where it would go",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "mghm"
+                }
+            ]
+        },
+        {
+            "stageID": "ynmo",
+            "stageTitle": "Start working out",
+            "stageBody": "Might as well work on your beach body, you are on an island after all!",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "mghm"
+                }
+            ]
+        },
+        {
+            "stageID": "okgg",
+            "stageTitle": "Go find something else to do!",
+            "stageBody": "Well done, this is the correct option. Once you've moved onto the next stage you can't return.",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "mghm"
+                },
+                {
+                    "btnText": "Continue",
+                    "link": "joui"
+                }
+            ]
+        },
+        {
+            "stageID": "joui",
+            "stageTitle": "Library",
+            "stageBody": "The library is surely the place to find the perfect escape plan! Unfortunately, the books they have are very limited, and of course, they don’t have The Count of Monte Cristo (cause that would be too obvious, you should have read it when you had the chance!)",
+            "nextStage": [
+                {
+                    "btnText": "Find a book and try to distract yourself until dinner",
+                    "link": "whfi"
+                },
+                {
+                    "btnText": "Try to listen in on the other people in the library",
+                    "link": "lspl"
+                },
+                {
+                    "btnText": "Ask the librarian for maps of the prison and island",
+                    "link": "htpn"
+                },
+                {
+                    "btnText": "Go back to your cell",
+                    "link": "jzon"
+                }
+            ]
+        },
+        {
+            "stageID": "whfi",
+            "stageTitle": "Find a book and try to distract yourself until dinner",
+            "stageBody": "You pick a book at random and see that it has a copy of popular mechanics hidden inside, with an article on how to make your own life preservers with raincoats and steam…for some reason you're getting a sense of deja vu",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "joui"
+                }
+            ]
+        },
+        {
+            "stageID": "lspl",
+            "stageTitle": "Try to listen in on the other people in the library",
+            "stageBody": "Two of the inmates are laughing between themselves about the new security guard, apparently, the guard accidentally walked into the showers thinking it was the guard's room! Another group of inmates is complaining about an inmate who keeps stealing other people's stuff from their cell (you make a note to not keep anything useful in your cell) ",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "joui"
+                }
+            ]
+        },
+        {
+            "stageID": "htpn",
+            "stageTitle": "Ask the librarian for maps of the prison and island",
+            "stageBody": "Seriously? Do you think that would work? The Prison officer hears your request and writes you up for asking for inappropriate materials. He is tailing you now, start over",
+            "nextStage": [
+                {
+                    "btnText": "Start Over",
+                    "link": "start"
+                }
+            ]
+        },
+        {
+            "stageID": "jzon",
+            "stageTitle": "Go back to your cell",
+            "stageBody": "Well done, this is the correct option. Once you've moved onto the next stage you can't return.",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "joui"
+                },
+                {
+                    "btnText": "Continue",
+                    "link": "dscu"
+                }
+            ]
+        },
+        {
+            "stageID": "dscu",
+            "stageTitle": "Peanut Butter, a superfood",
+            "stageBody": "You drop in on the small man from lunch and join him for a peanut sandwich",
+            "nextStage": [
+                {
+                    "btnText": "Ask if he can get you a jar of peanut butter",
+                    "link": "lgmg"
+                },
+                {
+                    "btnText": "Ask how he ended up in prison",
+                    "link": "hgnw"
+                },
+                {
+                    "btnText": "Ask if he knows any escape stories",
+                    "link": "jbxx"
+                },
+                {
+                    "btnText": "Go back to your cell",
+                    "link": "bcsf"
+                }
+            ]
+        },
+        {
+            "stageID": "lgmg",
+            "stageTitle": "Ask if he can get you a jar of peanut butter",
+            "stageBody": "Turns out he has a spare jar, and he gives you it as a welcome present…better than that plant your friend got you when you moved into your last apartment!",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "dscu"
+                }
+            ]
+        },
+        {
+            "stageID": "hgnw",
+            "stageTitle": "Ask how he ended up in prison",
+            "stageBody": "He says he's innocent and the police framed him…you get the sense that he isn't telling you the truth",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "dscu"
+                }
+            ]
+        },
+        {
+            "stageID": "jbxx",
+            "stageTitle": "Ask if he knows any escape stories",
+            "stageBody": "He tells you that the door next to the guard's breakroom leads outside, and if you can get out there you can make a run for it to the boats... problem is it's locked",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "dscu"
+                }
+            ]
+        },
+        {
+            "stageID": "bcsf",
+            "stageTitle": "Go back to your cell",
+            "stageBody": "Well done, this is the correct option. Once you've moved onto the next stage you can't return.",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "dscu"
+                },
+                {
+                    "btnText": "Continue",
+                    "link": "xpqb"
+                }
+            ]
+        },
+        {
+            "stageID": "xpqb",
+            "stageTitle": "Your only chance",
+            "stageBody": "You walk back to your cell, it’s getting late, and it's dark outside. You have your jar of peanut butter and a little pickaxe with you. As you walk past the guard’s breakroom you see the door leading outside. You hear the new guard coming around the corner…This is your only chance!",
+            "nextStage": [
+                {
+                    "btnText": "Cover the door sign with peanut butter",
+                    "link": "sidf"
+                },
+                {
+                    "btnText": "Hide next to the door and hold the peanut butter over your head like a rock",
+                    "link": "bvge"
+                },
+                {
+                    "btnText": "Try to talk to the guard",
+                    "link": "ttrr"
+                },
+                {
+                    "btnText": "Keep Walking",
+                    "link": "acgz"
+                }
+            ]
+        },
+        {
+            "stageID": "sidf",
+            "stageTitle": "You quickly cover the door sign with peanut butter",
+            "stageBody": "The guard comes around the corner as you roll the empty jar away from you. They ask what you're doing and you explain that the door for inmates to get to the warden's office is jammed. The guard opens the door and you say thanks and walk outside (since it's dark the officer takes a minute to realize their mistake!)",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "xpqb"
+                },
+                {
+                    "btnText": "Continue",
+                    "link": "kelg"
+                }
+            ]
+        },
+        {
+            "stageID": "bvge",
+            "stageTitle": "You hide next to the door, holding the peanut butter over your head like a roc",
+            "stageBody": "The guard sees you, a dumb move not hiding properly! He yells for help and you are tackled by the guards who were on break. Ouch you are in the hospital wing with broken ribs and your plans are ruined, Start over",
+            "nextStage": [
+                {
+                    "btnText": "Start again",
+                    "link": "start"
+                }
+            ]
+        },
+        {
+            "stageID": "ttrr",
+            "stageTitle": "You decide to try to talk to the guard",
+            "stageBody": "You scare the guard as he comes around the corner, maybe not the best move! He tells you he will be watching you in the future and you realize that you've made a pretty big mistake! Start again",
+            "nextStage": [
+                {
+                    "btnText": "Start again",
+                    "link": "start"
+                }
+            ]
+        },
+        {
+            "stageID": "acgz",
+            "stageTitle": "You keep walking",
+            "stageBody": "Seriously? This is your only chance and you walk away?! Start again!",
+            "nextStage": [
+                {
+                    "btnText": "Start again",
+                    "link": "start"
+                }
+            ]
+        },
+        {
+            "stageID": "kelg",
+            "stageTitle": "Freedom!",
+            "stageBody": "Your outside, and you run! You make it to the boat you saw and see that it has the keys in it. YES! You take off and sail to freedom, with the prison officers yelling behind you! You’ve done it, where to next",
+            "nextStage": [
+                {
+                    "btnText": "Amsterdam",
+                    "link": "weot"
+                },
+                {
+                    "btnText": "Brazil",
+                    "link": "mgik"
+                },
+                {
+                    "btnText": "Rome",
+                    "link": "gvct"
+                },
+                {
+                    "btnText": "France",
+                    "link": "gngx"
+                }
+            ]
+        },
+        {
+            "stageID": "weot",
+            "stageTitle": "Amsterdam",
+            "stageBody": "You run into a very nice man from Iceland named Sindri Þór Stefánsson and join him for the day, you both take loads of pictures. You two part ways after a day of sightseeing and great food (you've gained a new appreciation for food after the prison slop!). A few days later you see on the news that he was an escaped prisoner from Iceland…You knew there was a reason you liked him!",
+            "nextStage": [
+                {
+                    "btnText": "I don't like it here, lets try somewhere else",
+                    "link": "kelg"
+                },
+                {
+                    "btnText": "I like it here, let me escape this game!",
+                    "link": "rklv"
+                }
+            ]
+        },
+        {
+            "stageID": "mgik",
+            "stageTitle": "Brazil",
+            "stageBody": "You make it to Brazil and find yourself in a tropical paradise. While in a bar one night you're regaling some people in a bar with your escape story and two old men starts laughing. When you ask them what's funny they reveal that they also escaped from an island prison, but they made their own boat out of raincoats and a broken pipe that was releasing steam. The two Anglin brothers seemed nice but you're going to fact-check their story later, it sounds exactly like that copy of popular mechanics you found! ",
+            "nextStage": [
+                {
+                    "btnText": "I don't like it here, lets try somewhere else",
+                    "link": "kelg"
+                },
+                {
+                    "btnText": "I like it here, let me escape this game!",
+                    "link": "rklv"
+                }
+            ]
+        },
+        {
+            "stageID": "gvct",
+            "stageTitle": "Rome",
+            "stageBody": "You decide to take a page out of John Gerard's book and head to Rome, your escape might not have been from the Tower of London but it was just as tough (maybe!). And you weren't imprisoned for being a catholic during the Elizabethan era, or tortured (unless you count the food), BUT STILL, you and he are so similar! Plus who can say no to Italian food?",
+            "nextStage": [
+                {
+                    "btnText": "I don't like it here, lets try somewhere else",
+                    "link": "kelg"
+                },
+                {
+                    "btnText": "I like it here, let me escape this game!",
+                    "link": "rklv"
+                }
+            ]
+        },
+        {
+            "stageID": "gngx",
+            "stageTitle": "France",
+            "stageBody": "You watched Catch Me If You Can the week you were arrested, and for some reason the idea of escaping to France like Frank Abignal keeps calling you, although you make sure to keep clear of the town of Montrichard where Frank was arrested, your not going to tempt fate that much! ",
+            "nextStage": [
+                {
+                    "btnText": "I don't like it here, lets try somewhere else",
+                    "link": "kelg"
+                },
+                {
+                    "btnText": "I like it here, let me escape this game!",
+                    "link": "rklv"
+                }
+            ]
+        },
+        {
+            "stageID": "rklv",
+            "stageTitle": "You win!",
+            "stageBody": "Thank you for playing! As an extra annoyance, how many real-life and fictional prison escape references did you spot?",
+            "nextStage": [
+                {
+                    "btnText": "Play again",
+                    "link": "start"
+                }
+            ],
+            "otherLinks": [
+                {
+                    "btnText": "Go Home",
+                    "link": "/"
+                },
+                {
+                    "btnText": "About this game",
+                    "link": "/about"
                 }
             ]
         }
