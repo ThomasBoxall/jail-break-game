@@ -40,12 +40,14 @@ let body = document.createElement('p');
 body.innerHTML = stagesData.stages[stagesDataIndex].stageBody;
 gameContainer.append(body);
 
-for (let x = 0; x < stagesData.stages[stagesDataIndex].nextStage.length; x++){
-    let linkToNext = document.createElement('a');
-    linkToNext.innerHTML = stagesData.stages[stagesDataIndex].nextStage[x].btnText;
-    linkToNext.setAttribute('href', '?stageID=' + stagesData.stages[stagesDataIndex].nextStage[x].link);
-    linkToNext.setAttribute('class', 'buttonLink');
-    gameContainer.append(linkToNext);
+if (stagesData.stages[stagesDataIndex].hasOwnProperty('nextStage')){
+    for (let x = 0; x < stagesData.stages[stagesDataIndex].nextStage.length; x++){
+        let linkToNext = document.createElement('a');
+        linkToNext.innerHTML = stagesData.stages[stagesDataIndex].nextStage[x].btnText;
+        linkToNext.setAttribute('href', '?stageID=' + stagesData.stages[stagesDataIndex].nextStage[x].link);
+        linkToNext.setAttribute('class', 'buttonLink stageLink');
+        gameContainer.append(linkToNext);
+    }
 }
 
 // add capabilities for other links to be included in the page (eg to send people to about page)
@@ -56,7 +58,7 @@ if (stagesData.stages[stagesDataIndex].hasOwnProperty('otherLinks')){
         let linkToOther = document.createElement('a');
         linkToOther.innerHTML = stagesData.stages[stagesDataIndex].otherLinks[x].btnText;
         linkToOther.setAttribute('href', stagesData.stages[stagesDataIndex].otherLinks[x].link);
-        linkToOther.setAttribute('class', 'buttonLink');
+        linkToOther.setAttribute('class', 'buttonLink otherLink');
         gameContainer.append(linkToOther);
     }
 }

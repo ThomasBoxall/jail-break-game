@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root{
     --bgCol: #333333;
-    --themeAccentColor: #ff028d;
+    --fgCol: white;
+    --themeAccentColor: #df6616;
+    --themeAccentColorSecondary: #0076a6;
 }
 
-*{
-    font-family: sans-serif;
+body{
+    width: 85%;
+    margin: 0px auto;
+    background-color: var(--bgCol);
+    color: var(--fgCol);
+    font-family: 'Roboto', sans-serif;
 }
 
-/* html, body{
-    height: 100%;
-    overflow: hidden;
+.poor-man-header-nav{
+    text-align: right;
+    margin: 0.5em 0em 0em auto;
 }
-
-.game-stage{
-    height: 100%;
-    padding-top: 1em;
-} */
 
 .footer{
     font-size: 70%;
@@ -30,12 +33,23 @@
 h1, h2{
     text-align:center;
 }
+.about>h2{
+    text-align: left;
+    font-size: 110%;
+    margin-bottom: 0.2em;
+}
+.about>p{
+    margin-top: 0.5em;
+}
+
+a{
+    color: var(--fgCol);
+}
 
 .buttonLink{
     width: 100%;
     display:block;
     margin: 0px auto 1em auto;
-    background-color: var(--themeAccentColor);
     text-align: center;
     color: white;
     text-decoration: none;
@@ -43,6 +57,13 @@ h1, h2{
     border-radius: 15px;
 }
 
+.stageLink{
+    background-color: var(--themeAccentColor);
+}
+
+.otherLink{
+    background-color: var(--themeAccentColorSecondary);
+}
 
 @media screen and (min-width: 430px) {
     body{

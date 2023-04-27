@@ -553,7 +553,7 @@
         {
             "stageID": "gvct",
             "stageTitle": "Rome",
-            "stageBody": "You decide to take a page out of John Gerard's book and head to Rome, your escape might not have been from the Tower of London but it was just as tough (maybe!). And you weren't imprisoned for being a catholic during the Elizabethan era, or tortured (unless you count the food), BUT STILL, you and he are so similar! Plus who can say no to Italian food?",
+            "stageBody": "You decide to take a page out of John Gerard's book and head to Rome, your escape might not have been from the Tower of London but it was just as tough (maybe!). And you weren't imprisoned for being a catholic during the Elizabethan era, or tortured (unless you count the food), BUT STILL, you and he are so similar! Plus who can say no to Italian <span style='text-decoration: line-through;'>men</span> food?",
             "nextStage": [
                 {
                     "btnText": "I don't like it here, lets try somewhere else",
@@ -584,13 +584,11 @@
             "stageID": "rklv",
             "stageTitle": "You win!",
             "stageBody": "Thank you for playing! As an extra annoyance, how many real-life and fictional prison escape references did you spot?",
-            "nextStage": [
+            "otherLinks": [
                 {
                     "btnText": "Play again",
-                    "link": "start"
-                }
-            ],
-            "otherLinks": [
+                    "link": "/play"
+                },
                 {
                     "btnText": "Go Home",
                     "link": "/"
