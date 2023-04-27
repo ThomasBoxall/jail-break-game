@@ -1,4 +1,17 @@
-import stagesData from './stages.json' assert { type: 'json' };
+// import stagesData from './stages.json' assert { type: 'json' };
+
+// use fetch() to avoid Safari ✨quirks✨ 
+// from https://javascript.info/fetch
+let response = await fetch('./stages.json');
+let stagesData;
+if (response.ok) { // if HTTP-status is 200-299
+  // get the response body (the method explained below)
+  stagesData = await response.json();
+} else {
+  alert("HTTP-Error: " + response.status);
+}
+
+
 // const stagesData = response.json();
 console.log(stagesData);
 
