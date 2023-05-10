@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root{
-    --bgCol: #333333;
-    --fgCol: white;
+    --bgCol: white;
+    --fgCol: black;
     --themeAccentColor: #df6616;
     --themeAccentColorSecondary: #0076a6;
+}
+
+
+.dark-mode{
+    --bgCol: #333333;
+    --fgCol: white;
 }
 
 body{
@@ -18,6 +24,19 @@ body{
 .poor-man-header-nav{
     text-align: right;
     margin: 0.5em 0em 0em auto;
+}
+
+.poor-man-header-nav > p{
+    margin-bottom: 0.3em;
+}
+
+.theme-toggle{
+    background-color: var(--bgCol);
+    border: 0px;
+    color: var(--fgCol);
+    text-decoration: underline;
+    font-size: 100%;
+    cursor: pointer;
 }
 
 .footer{
