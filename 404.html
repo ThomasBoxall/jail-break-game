@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <title>404</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/6bd76a095b.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+        font-family: 'Courier New', Courier, monospace;
+        background-color:black;
+        color:white;
+        }
+        h1{
+            text-align:center;
+        }
+        p{
+            color:white;
+        }
+        .headerbox{
+            text-align: center;
+            margin-top:5%;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .twentySplit{
+            width:20%;
+            float:left;
+        }
+        .sixtySplit{
+            width:60%;
+            float:left;
+        }
+        .error{
+            color:red
+        }
+        a{
+            color:white;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    
+
+    <div class="clearfix">
+        <div class="twentySplit">
+            <br>
+        </div>
+        <div class="clearfix sixtySplit">
+            <div class="headerbox">
+                <h1 class="error" style="font-size: 400%;" id="errorMessage">404</h1>
+            </div>
+            <p>You seem to have come across one of those 404 error things. </p>
+            <br>
+            <p style="font-size:100%; text-decoration: underline;" id="link">There should be a link here</p>
+                
+        </div>
+    </div>
+    <script>
+        let link = document.getElementById("link")
+        link.innerHTML = "<a href='"+window.location.origin+"'> Head back to "+ window.location.hostname +"</a>";
+    </script>
+</body>
+
+
+</html>

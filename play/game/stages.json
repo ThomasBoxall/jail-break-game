@@ -287,7 +287,7 @@
         {
             "stageID": "joui",
             "stageTitle": "Library",
-            "stageBody": "The library is surely the place to find the perfect escape plan! Unfortunately, the books they have are very limited, and of course, they don’t have The Count of Monte Cristo (cause that would be too obvious, you should have read it when you had the chance!)",
+            "stageBody": "The library is surely the place to find the perfect escape plan! Unfortunately, the books they have are very limited, and of course, they don't have The Count of Monte Cristo (cause that would be too obvious, you should have read it when you had the chance!)",
             "nextStage": [
                 {
                     "btnText": "Find a book and try to distract yourself until dinner",
@@ -332,7 +332,7 @@
         {
             "stageID": "htpn",
             "stageTitle": "Ask the librarian for maps of the prison and island",
-            "stageBody": "Seriously? Do you think that would work? The Prison officer hears your request and writes you up for asking for inappropriate materials. He is tailing you now, start over",
+            "stageBody": "Seriously? Did you think that would work? The Prison officer hears your request and writes you up for asking for inappropriate materials. He is tailing you now, start over",
             "nextStage": [
                 {
                     "btnText": "Start Over",
@@ -351,7 +351,7 @@
                 },
                 {
                     "btnText": "Continue",
-                    "link": "dscu"
+                    "link": "gsep"
                 }
             ]
         },
@@ -429,18 +429,18 @@
         {
             "stageID": "xpqb",
             "stageTitle": "Your only chance",
-            "stageBody": "You walk back to your cell, it’s getting late, and it's dark outside. You have your jar of peanut butter and a little pickaxe with you. As you walk past the guard’s breakroom you see the door leading outside. You hear the new guard coming around the corner…This is your only chance!",
+            "stageBody": "You walk back to your cell, it's getting late, and it's dark outside. You have your jar of peanut butter, a little pickaxe, a hacksaw, and some ripped bits of cloth. As you walk past the guard's breakroom you see the door leading outside. You hear the new guard coming around the corner…This is your only chance!",
             "nextStage": [
                 {
                     "btnText": "Cover the door sign with peanut butter",
                     "link": "sidf"
                 },
                 {
-                    "btnText": "Hide next to the door and hold the peanut butter over your head like a rock",
+                    "btnText": "Threaten the guard with the hacksaw",
                     "link": "bvge"
                 },
                 {
-                    "btnText": "Try to talk to the guard",
+                    "btnText": "Use the rope as a lasso to tie up the guard and take his key",
                     "link": "ttrr"
                 },
                 {
@@ -466,8 +466,8 @@
         },
         {
             "stageID": "bvge",
-            "stageTitle": "You hide next to the door, holding the peanut butter over your head like a roc",
-            "stageBody": "The guard sees you, a dumb move not hiding properly! He yells for help and you are tackled by the guards who were on break. Ouch you are in the hospital wing with broken ribs and your plans are ruined, Start over",
+            "stageTitle": "Threaten the guard with the hacksaw",
+            "stageBody": "The guard sees you before you can even jump out to threaten him, it was a dumb move not hiding properly! He yells for help and you are tackled by the guards who were on break. Ouch you are in the hospital wing with broken ribs and your plans are ruined, Start over",
             "nextStage": [
                 {
                     "btnText": "Start again",
@@ -477,8 +477,8 @@
         },
         {
             "stageID": "ttrr",
-            "stageTitle": "You decide to try to talk to the guard",
-            "stageBody": "You scare the guard as he comes around the corner, maybe not the best move! He tells you he will be watching you in the future and you realize that you've made a pretty big mistake! Start again",
+            "stageTitle": "Use the rope as a lasso to tie up the guard and take his key",
+            "stageBody": "What are you, a cowboy?! Apparently not, it didn't work. You just threw a bunch of rope at the guard who is more confused than scared. Start again",
             "nextStage": [
                 {
                     "btnText": "Start again",
@@ -500,7 +500,7 @@
         {
             "stageID": "kelg",
             "stageTitle": "Freedom!",
-            "stageBody": "Your outside, and you run! You make it to the boat you saw and see that it has the keys in it. YES! You take off and sail to freedom, with the prison officers yelling behind you! You’ve done it, where to next",
+            "stageBody": "Your outside, and you run! You make it to the boat you saw and see that it has the keys in it. YES! You take off and sail to freedom, with the prison officers yelling behind you! You've done it, where to next",
             "nextStage": [
                 {
                     "btnText": "Amsterdam",
@@ -596,6 +596,293 @@
                 {
                     "btnText": "About this game",
                     "link": "/about"
+                }
+            ]
+        },
+        {
+            "stageID": "gsep",
+            "stageTitle": "Work Duty",
+            "stageBody": "You are called by the guard and told you need to pick a job for the day! You really don't want to but maybe you'll be able to get more information or tools for your escape. You have two choices",
+            "nextStage": [
+                {
+                    "btnText": "Laundry",
+                    "link": "rqfe"
+                },
+                {
+                    "btnText": "Kitchen",
+                    "link": "tulf"
+                },
+                {
+                    "btnText": "I've been to both the Laundry & Kitchen",
+                    "link": "dcsz"
+                }
+            ]
+        },
+        {
+            "stageID": "rqfe",
+            "stageTitle": "Laundry",
+            "stageBody": "You are given laundry duty, and you immediately regret all the years you made your mother do your laundry for you, you've got no clue what you're doing! You look around for any hints, or a manual to tell you what to do but no luck! You shrug and tell yourself if students can figure out laundry then surely you should be able to as well... what could go wrong?",
+            "nextStage": [
+                {
+                    "btnText": "Put everythinng in the washer and press start",
+                    "link": "jnbt"
+                },
+                {
+                    "btnText": "Dress up as washerwoman to escape",
+                    "link": "hsih"
+                },
+                {
+                    "btnText": "Give up and take a nap under a pile of clothes",
+                    "link": "mgst"
+                },
+                {
+                    "btnText": "Separate the colours and whites",
+                    "link": "uzpy"
+                }
+            ]
+        },
+        {
+            "stageID": "jnbt",
+            "stageTitle": "Put everything in the washer and press start",
+            "stageBody": "Reds and Whites don't go in a washing machine together…guess the prisoners are getting a new colour for their jumpsuits, pink!",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "rqfe"
+                }
+            ]
+        },
+        {
+            "stageID": "hsih",
+            "stageTitle": "Dress up as a washerwoman to escape",
+            "stageBody": "Well, that might have worked if this was a fairytale or if the prison had washerwomen in it, but unfortunately, real life seems to be very boring and unhelpful right now. Unsurprisingly it didn't work the prison guards saw right through your disguise. Start Again! ",
+            "nextStage": [
+                {
+                    "btnText": "Start again",
+                    "link": "start"
+                }
+            ]
+        },
+        {
+            "stageID": "mgst",
+            "stageTitle": "Give up and take a nap under a pile of clothes",
+            "stageBody": "Why is a pile of other inmates' dirty clothes more comfortable than your bed?! Unfortunately, after a lovely hour's nap, the guard comes to check on you and catches you sleeping! Start Again!!",
+            "nextStage": [
+                {
+                    "btnText": "Start again",
+                    "link": "start"
+                }
+            ]
+        },
+        {
+            "stageID": "uzpy",
+            "stageTitle": "Separate the colours and whites",
+            "stageBody": "See, this wasn't so hard! You noticed some extra sheets that are torn up and decided to take them while no one is looking. They feel strong enough to make a rope out of it! Just in time, the guard comes in and tells you that you can leave for the night…maybe tomorrow you'll have a better job!",
+            "nextStage": [
+                {
+                    "btnText": "Go back to the jobs board",
+                    "link": "gsep"
+                }
+            ]
+        },
+        {
+            "stageID": "tulf",
+            "stageTitle": "The Kitchen",
+            "stageBody": "You decide to try your hand at cooking, you can't make it worse than it already is! On your first day, you are told to unpack the supplies while the others prepare the food. The head chef is a very scary man so you quickly head to the boxes of food. There are so many boxes, this might take a while!",
+            "nextStage": [
+                {
+                    "btnText": "Open the box of frozen beef burgers",
+                    "link": "gzfk"
+                },
+                {
+                    "btnText": "Open the box of nectarines",
+                    "link": "mbjb"
+                },
+                {
+                    "btnText": "Open the unlabeled box",
+                    "link": "frrj"
+                },
+                {
+                    "btnText": "Finish the shift",
+                    "link": "vdmb"
+                }
+            ]
+        },
+        {
+            "stageID": "gzfk",
+            "stageTitle": "Open the box of frozen beef burgers",
+            "stageBody": "You head to the freezer and start stacking the beef burgers on the labelled shelf. Halfway through the box, you see something shiny and when you grab it you see it's a hacksaw! How'd that get there? You grab it, it might be helpful later on!",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "tulf"
+                }
+            ]
+        },
+        {
+            "stageID": "mbjb",
+            "stageTitle": "Open the box of nectarines",
+            "stageBody": "You open the box and instead of nectarines, you see grenades!! You yell for help and the kitchen staff comes running along with some prison guards. Instead of being concerned, everyone starts laughing at you, and they throw one at you. It is a nectarine, someone just painted it to look like a grenade! You silently curse whoever painted the fruit",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "tulf"
+                }
+            ]
+        },
+        {
+            "stageID": "tulf",
+            "stageTitle": "Open the unlabeled box",
+            "stageBody": "Oooh mystery box, you wonder what's inside, could something edible unlike most of the things in this kitchen, something to help you escape, something valuable? You open the box expectantly to find a single jar of marmalade. Well, that was anticlimactic!",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "tulf"
+                }
+            ]
+        },
+        {
+            "stageID": "vdmb",
+            "stageTitle": "Finish the shift",
+            "stageBody": "You work through the boxes, and after all that work you decide that it might just be easier to escape than to continue working in the kitchen! You go back to your cell",
+            "nextStage": [
+                {
+                    "btnText": "Go back to the jobs board",
+                    "link": "gsep"
+                }
+            ]
+        },
+        {
+            "stageID": "dszc",
+            "stageTitle": "The Barbershop",
+            "stageBody": "You really need a haircut, not because of prison you had an appointment before you were arrested but life did not go your way! You head to the barbershop in the prison and sit in the chair.",
+            "nextStage": [
+                {
+                    "btnText": "Get a haircut",
+                    "link": "rfge"
+                },
+                {
+                    "btnText": "Chat to the man getting his haircut next to you",
+                    "link": "jpag"
+                },
+                {
+                    "btnText": "Get a Shave",
+                    "link": "kfbd"
+                },
+                {
+                    "btnText": "Get a Haircut and Shave",
+                    "link": "itkw"
+                }
+            ]
+        },
+        {
+            "stageID": "rfge",
+            "stageTitle": "Get a Haircut",
+            "stageBody": "You pick your preferred style and after a while, you look in the mirror. Well it's not horrible, at least your not paying for the cut so you really can't complain",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "dscz"
+                }
+            ]
+        },
+        {
+            "stageID": "jpag",
+            "stageTitle": "Chat to the man getting his haricut next to you",
+            "stageBody": "Tommy Lee Royce seems like a nice enough man but he scares you somewhat. He says he is in court the next day so you wish him luck! ",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "dscz"
+                }
+            ]
+        },
+        {
+            "stageID": "kfbd",
+            "stageTitle": "Get a shave",
+            "stageBody": "Prison, a straight razor in the hands of a fellow inmate, what could go wrong? Actually nothing, he did a really good job if you could tip you would!",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "dscz"
+                }
+            ]
+        },
+        {
+            "stageID": "itkw",
+            "stageTitle": "Get a haircut and shave",
+            "stageBody": "You come away with a completely new look, your hair is choppy but the shave was really nice! If you escape, maybe they won't recognize you as quickly!",
+            "nextStage": [
+                {
+                    "btnText": "Continue",
+                    "link": "aghn"
+                }
+            ]
+        },
+        {
+            "stageID": "aghn",
+            "stageTitle": "The Showers",
+            "stageBody": "This is the time you dreaded the most! But it was inevitable, you'd need a shower at some point. You go into the room and hear a weird scraping noise coming from the back of the room behind a curtain. Huh weird.",
+            "nextStage": [
+                {
+                    "btnText": "Go and investigate",
+                    "link": "iryx"
+                },
+                {
+                    "btnText": "Call the Guard",
+                    "link": "ylfl"
+                },
+                {
+                    "btnText": "Mind your own business",
+                    "link": "jkes"
+                },
+                {
+                    "btnText": "Nevermind you are not ready for this!",
+                    "link": "loii"
+                }
+            ]
+        },
+        {
+            "stageID": "iryx",
+            "stageTitle": "Go and investigate",
+            "stageBody": "You go behind the curtain and see several inmates digging a hole in the floor! It looks quite deep! You ask how long they've been digging for and they said they've been at it for months, a few of them had already managed to escape with the help of one of their mistresses at the end of the tunnel. You ask how the guards haven't noticed the dirt from the tunnel and one of the inmates explained that they have a second tunnel they put the dirt in…something doesn't add up ",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "aghn"
+                }
+            ]
+        },
+        {
+            "stageID": "ylfl",
+            "stageTitle": "Call the Guard",
+            "stageBody": "Have you not learned your lesson about calling the guards over yet?! Start over! ",
+            "nextStage": [
+                {
+                    "btnText": "Start again",
+                    "link": "start"
+                }
+            ]
+        },
+        {
+            "stageID": "jkes",
+            "stageTitle": "Mind your own business",
+            "stageBody": "You start having a shower while trying to ignore the noises. It was the most uncomfortable experience you've had to go through, but at least your clean!",
+            "nextStage": [
+                {
+                    "btnText": "Go back",
+                    "link": "aghn"
+                }
+            ]
+        },
+        {
+            "stageID": "loii",
+            "stageTitle": "Nevermind you are not ready for this!",
+            "stageBody": "Run away, you'll escape before you have to go back to the showers!",
+            "nextStage": [
+                {
+                    "btnText": "Continue",
+                    "link": "dcsu"
                 }
             ]
         }
