@@ -731,7 +731,7 @@
             ]
         },
         {
-            "stageID": "tulf",
+            "stageID": "frrj",
             "stageTitle": "Open the unlabeled box",
             "stageBody": "Oooh mystery box, you wonder what's inside, could something edible unlike most of the things in this kitchen, something to help you escape, something valuable? You open the box expectantly to find a single jar of marmalade. Well, that was anticlimactic!",
             "nextStage": [
@@ -782,7 +782,7 @@
             "nextStage": [
                 {
                     "btnText": "Go back",
-                    "link": "dscz"
+                    "link": "dszc"
                 }
             ]
         },
@@ -793,7 +793,7 @@
             "nextStage": [
                 {
                     "btnText": "Go back",
-                    "link": "dscz"
+                    "link": "dszc"
                 }
             ]
         },
@@ -804,7 +804,7 @@
             "nextStage": [
                 {
                     "btnText": "Go back",
-                    "link": "dscz"
+                    "link": "dszc"
                 }
             ]
         },
