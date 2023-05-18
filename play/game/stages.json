@@ -10,16 +10,16 @@
                     "link": "dprn"
                 },
                 {
-                    "btnText": "Look at the bed",
-                    "link": "iceg"
-                },
-                {
                     "btnText": "Start writing your escape plan",
                     "link": "ayks"
                 },
                 {
                     "btnText": "Go try to explore",
                     "link": "dwyn"
+                },
+                {
+                    "btnText": "Look at the bed",
+                    "link": "iceg"
                 }
             ]
         },
@@ -77,20 +77,20 @@
             "stageBody": "You hear a commotion outside your cell and go to see what's going on, two inmates are fighting. You notice one of the inmates dropped something and it is very close to you. In the chaos, all the attention is on the fighting inmates",
             "nextStage": [
                 {
-                    "btnText": "Grab the item",
-                    "link": "ivvr"
-                },
-                {
-                    "btnText": "Just watch the fight",
-                    "link": "kjbk"
-                },
-                {
                     "btnText": "Call the guards over",
                     "link": "ixxm"
                 },
                 {
                     "btnText": "Walk away, you've got exploring to do!",
                     "link": "wntc"
+                },
+                {
+                    "btnText": "Grab the item",
+                    "link": "ivvr"
+                },
+                {
+                    "btnText": "Just watch the fight",
+                    "link": "kjbk"
                 }
             ]
         },
@@ -148,16 +148,16 @@
             "stageBody": "You enter the dining hall and are hit by a revolting smell of whatever monstrosity the kitchen has cooked! You miss the smell of your mother's home cooking. You take a deep breath and go to get a tray of the slop they call food. You look around after getting your food and see three available seats",
             "nextStage": [
                 {
-                    "btnText": "Take a seat with the group of scary-looking men  who are all arm wrestling",
-                    "link": "zdpu"
-                },
-                {
                     "btnText": "Take a seat with the old man scowling at his dinner",
                     "link": "xynm"
                 },
                 {
                     "btnText": "Take a seat with the smaller man who is guarding his food",
                     "link": "xkpi"
+                },
+                {
+                    "btnText": "Take a seat with the group of scary-looking men  who are all arm wrestling",
+                    "link": "zdpu"
                 },
                 {
                     "btnText": "Take your food back to your cell…Your food is horrible and your desk chair doesn't have lumbar support, prison really is horrible",
@@ -227,12 +227,12 @@
                     "link": "sosz"
                 },
                 {
-                    "btnText": "Start working out",
-                    "link": "ynmo"
-                },
-                {
                     "btnText": "Go find something else to do",
                     "link": "okgg"
+                },
+                {
+                    "btnText": "Start working out",
+                    "link": "ynmo"
                 }
             ]
         },
@@ -298,12 +298,12 @@
                     "link": "lspl"
                 },
                 {
-                    "btnText": "Ask the librarian for maps of the prison and island",
-                    "link": "htpn"
-                },
-                {
                     "btnText": "Go back to your cell",
                     "link": "jzon"
+                },
+                {
+                    "btnText": "Ask the librarian for maps of the prison and island",
+                    "link": "htpn"
                 }
             ]
         },
@@ -361,6 +361,10 @@
             "stageBody": "You drop in on the small man from lunch and join him for a peanut sandwich",
             "nextStage": [
                 {
+                    "btnText": "Go back to your cell",
+                    "link": "bcsf"
+                },
+                {
                     "btnText": "Ask if he can get you a jar of peanut butter",
                     "link": "lgmg"
                 },
@@ -371,10 +375,6 @@
                 {
                     "btnText": "Ask if he knows any escape stories",
                     "link": "jbxx"
-                },
-                {
-                    "btnText": "Go back to your cell",
-                    "link": "bcsf"
                 }
             ]
         },
@@ -695,16 +695,16 @@
                     "link": "gzfk"
                 },
                 {
+                    "btnText": "Finish the shift",
+                    "link": "vdmb"
+                },
+                {
                     "btnText": "Open the box of nectarines",
                     "link": "mbjb"
                 },
                 {
                     "btnText": "Open the unlabeled box",
                     "link": "frrj"
-                },
-                {
-                    "btnText": "Finish the shift",
-                    "link": "vdmb"
                 }
             ]
         },
@@ -758,20 +758,20 @@
             "stageBody": "You really need a haircut, not because of prison you had an appointment before you were arrested but life did not go your way! You head to the barbershop in the prison and sit in the chair.",
             "nextStage": [
                 {
-                    "btnText": "Get a haircut",
-                    "link": "rfge"
-                },
-                {
-                    "btnText": "Chat to the man getting his haircut next to you",
-                    "link": "jpag"
-                },
-                {
                     "btnText": "Get a Shave",
                     "link": "kfbd"
                 },
                 {
                     "btnText": "Get a Haircut and Shave",
                     "link": "itkw"
+                },
+                {
+                    "btnText": "Get a haircut",
+                    "link": "rfge"
+                },
+                {
+                    "btnText": "Chat to the man getting his haircut next to you",
+                    "link": "jpag"
                 }
             ]
         },
